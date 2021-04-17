@@ -3,11 +3,12 @@ name = "phenix"
 version = "0.1.0"
 authors = ["kazami <kazamizero@gmail.com>"]
 edition = "2018"
+repository = "https://github.com/Knight-X/phenix"
+description = "A functional execution environment tool by wasm"
+license = "MIT/Apache-2.0"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+cli = { path = "./cli", version = "0.0.1"}
 
-
-[dependencies.cli]
-path = "./cli"
