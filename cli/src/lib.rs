@@ -2,7 +2,7 @@ use service;
 use clap::App;
 
 pub fn run() {
-    let matches = App::new("captain")
+    let matches = App::new("phenix")
         .version("0.0.1")
         .author("kazami")
         .subcommand(clap::App::new("run")
